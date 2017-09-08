@@ -1,0 +1,13 @@
+div {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    color: #c0392b;
+}
+
+    h2 span {
+        color: #c0392b;
+        font-size: 35px;
+    }
