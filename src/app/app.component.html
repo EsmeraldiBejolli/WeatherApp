@@ -1,0 +1,7 @@
+<app-header (city)="getCityForecast($event)"></app-header>
+<main class="container" >
+
+    <forecast-widget [data]="data" *ngIf="data"></forecast-widget>
+    <city-not-found [error]="error" *ngIf="error"></city-not-found>
+</main>
+

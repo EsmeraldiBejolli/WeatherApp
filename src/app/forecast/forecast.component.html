@@ -1,0 +1,12 @@
+   
+ <div class="card-wrapper">
+        <section class="card">
+            <header>
+                <h1 class="card-header">{{data?.name}}</h1>
+            </header>
+            <p class="card-temp box-highlight">{{data?.main?.temp | number : '1.0'}}</p>
+            <div class="icon owi owi-{{data?.weather[0]?.icon}}">
+            </div>
+            <p class="card-info">{{data?.weather[0]?.description}}</p>
+        </section>
+    </div>
